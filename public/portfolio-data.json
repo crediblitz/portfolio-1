@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "lang": "en",
+    "title": "Lakshay Goyal | Full Stack Developer",
+    "description": "Portfolio for Lakshay Goyal, a full-stack developer, AI enthusiast, and DevOps learner based in Gurgaon, India."
+  },
+  "portfolio": {
+    "first_name": "Lakshay",
+    "last_name": "Goyal",
+    "headline": "Full Stack Developer | AI Enthusiast | DevOps Learner",
+    "city": "Gurgaon",
+    "country": "India",
+    "phone": "+91-9876543210",
+    "primary_domain": "Software Development",
+    "is_student": true,
+    "is_freelancer": true,
+    "is_career_switcher": false,
+    "summary": "Final-year BCA student with strong experience in full-stack web development, DevOps fundamentals, and scalable system design. Built multiple production-ready projects including a CFD trading platform, AI-powered tools, and real-time applications. Passionate about AI, distributed systems, and building impactful products.",
+    "profile_photo_url": "https://yourcdn.com/profile.jpg",
+    "pronouns": "he/him",
+    "linkedin_url": "https://linkedin.com/in/lakshaygoyal",
+    "github_url": "https://github.com/lakshaygoyal",
+    "twitter_url": "https://twitter.com/lakshaygoyal",
+    "personal_website_url": "https://lakshaygoyal.dev",
+    "dribbble_url": "",
+    "contact_email": "lakshay@example.com",
+    "technical_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "AWS",
+      "Tailwind CSS",
+      "System Design",
+      "REST APIs",
+      "GraphQL"
+    ],
+    "soft_skills": [
+      "Problem Solving",
+      "Communication",
+      "Team Collaboration",
+      "Adaptability",
+      "Critical Thinking"
+    ],
+    "work_experience": [
+      {
+        "id": "work-1",
+        "job_title": "Full Stack Developer",
+        "company_name": "Freelance",
+        "start_date": "2024-01",
+        "end_date": "",
+        "is_current": true,
+        "responsibilities": "Developed scalable web applications and APIs. Worked on real-time systems, optimized performance, and improved UI/UX for multiple client projects."
+      }
+    ],
+    "education": [
+      {
+        "id": "edu-1",
+        "degree": "Bachelor of Computer Applications (BCA)",
+        "institution_name": "K.R. Mangalam University",
+        "start_date": "2022-08",
+        "end_date": "2025-06",
+        "is_current": true,
+        "grade_or_gpa": ""
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj-1",
+        "title": "CFD Trading Platform",
+        "description": "Built a real-time trading platform using microservices architecture with Redis Pub/Sub and TimescaleDB.",
+        "tech_stack": "Node.js, Redis, TimescaleDB, WebSockets",
+        "live_url": "",
+        "source_code_url": "https://github.com/lakshaygoyal/cfd-platform"
+      },
+      {
+        "id": "proj-2",
+        "title": "AI Portfolio Generator",
+        "description": "Created an AI-powered tool to generate portfolio websites from resumes and LinkedIn data.",
+        "tech_stack": "Next.js, OpenAI API, Tailwind CSS",
+        "live_url": "https://crediblitz.dev",
+        "source_code_url": ""
+      }
+    ],
+    "template_preference": "modern_minimal"
+  },
+  "ui": {
+    "anchors": {
+      "top": "top",
+      "work": "work",
+      "stack": "stack",
+      "contact": "contact"
+    },
+    "date": {
+      "locale": "en",
+      "month": "short",
+      "year": "numeric",
+      "separator": " - ",
+      "present": "Present"
+    },
+    "profile": {
+      "fallback_invalid_markers": ["yourcdn.com"],
+      "badge": "Product minded",
+      "name_separator": " ",
+      "headline_source_separator": "|",
+      "headline_display_separator": "/"
+    },
+    "nav": [
+      { "label": "Work", "href": "#work" },
+      { "label": "Stack", "href": "#stack" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "badges": [
+      { "field": "is_student", "label": "Student" },
+      { "field": "is_freelancer", "label": "Freelancer" },
+      { "field": "headline", "match": "AI", "label": "AI Enthusiast" },
+      { "field": "headline", "match": "DevOps", "label": "DevOps Learner" }
+    ],
+    "social_links": [
+      { "label": "LinkedIn", "href_field": "linkedin_url", "icon": "contact" },
+      { "label": "GitHub", "href_field": "github_url", "icon": "git" },
+      { "label": "Twitter", "href_field": "twitter_url", "icon": "message" },
+      { "label": "Website", "href_field": "personal_website_url", "icon": "globe" }
+    ],
+    "hero": {
+      "eyebrow": "Portfolio dossier",
+      "open_to_builds": "Open to builds",
+      "poster_lines": ["Hello", "System"],
+      "signal_label": "Current signal",
+      "signal_text": "Building reliable web products where AI, real-time data, and production systems meet."
+    },
+    "terminal": {
+      "lines": ["build:active", "api:stable", "latency:low"]
+    },
+    "about": {
+      "eyebrow": "About the operator",
+      "title": "Full-stack, product-sharp, systems curious."
+    },
+    "stats": {
+      "eyebrow": "Quick index",
+      "items": [
+        { "value_from": "projects.length", "label": "featured builds" },
+        { "value_from": "technical_skills.length", "label": "technical tools" },
+        { "value": "BCA", "label": "final year" },
+        { "value": "AI", "label": "product focus" }
+      ]
+    },
+    "education": {
+      "title_lines": ["Learning", "Track"]
+    },
+    "projects": {
+      "featured_label": "Featured build",
+      "selected_label": "Selected system",
+      "live_label": "Live project",
+      "source_label": "Source code",
+      "tech_separator": ","
+    },
+    "experience": {
+      "eyebrow": "Field experience",
+      "title": "Shipping for clients"
+    },
+    "stack": {
+      "eyebrow": "Technical palette",
+      "title": "Stack map",
+      "clusters": [
+        {
+          "label": "Interface",
+          "skills": ["React", "Next.js", "Tailwind CSS", "TypeScript"]
+        },
+        {
+          "label": "Backend",
+          "skills": ["Node.js", "Express.js", "REST APIs", "GraphQL"]
+        },
+        {
+          "label": "Systems",
+          "skills": ["Redis", "PostgreSQL", "MongoDB", "System Design"]
+        },
+        {
+          "label": "Delivery",
+          "skills": ["Docker", "AWS", "JavaScript"]
+        }
+      ]
+    },
+    "soft_skills": {
+      "eyebrow": "Collaboration mode",
+      "title": "Human layer",
+      "number_prefix": "0"
+    },
+    "contact": {
+      "eyebrow": "Open channel",
+      "title": "Let's build the next useful system."
+    }
+  }
+}
