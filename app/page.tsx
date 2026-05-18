@@ -19,8 +19,6 @@ import Image from "next/image";
 import { getPortfolioContent } from "@/lib/portfolio-content";
 import type { Portfolio, PortfolioContent } from "@/lib/portfolio-types";
 
-export const dynamic = "force-dynamic";
-
 type SocialIconName = PortfolioContent["ui"]["social_links"][number]["icon"];
 type IconComponent = typeof Globe2;
 
